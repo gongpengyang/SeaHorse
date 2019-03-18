@@ -1,0 +1,6 @@
+framework module Pods_KYCarSource {
+  umbrella header "Pods-KYCarSource-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB" customClass="KYAddressSelectorView" customModule="KYCarSource" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="366" height="629"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lfr-Mw-GJP">
+                    <rect key="frame" x="20" y="20" width="12" height="12"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="12" id="QmW-Qp-yAv"/>
+                        <constraint firstAttribute="width" constant="12" id="yy5-bH-cUW"/>
+                    </constraints>
+                    <state key="normal" title="Button" backgroundImage="gray_left">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="初始地" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hq1-k9-tzg">
+                    <rect key="frame" x="153" y="20" width="60" height="21.5"/>
+                    <constraints>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="GrW-5n-dLD"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="21.5" id="WL9-4j-QZa"/>
+                        <constraint firstAttribute="height" constant="21.5" id="imO-EL-LeI"/>
+                        <constraint firstAttribute="width" constant="60" id="xOh-BQ-YGS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3y-Yy-CWi">
+                    <rect key="frame" x="20" y="62" width="72" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="72" id="EEU-Qe-Rfm"/>
+                        <constraint firstAttribute="height" constant="20" id="cd8-66-mqH"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" title="请选择"/>
+                    <connections>
+                        <action selector="proviceBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="x5d-DC-i1t"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dcX-vk-Gm6">
+                    <rect key="frame" x="102" y="62" width="72" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="WcB-D2-Tg0"/>
+                        <constraint firstAttribute="width" constant="72" id="bhF-Sq-Aq2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="请选择"/>
+                    <connections>
+                        <action selector="cityBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="hfW-yg-fgC"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y2W-i4-LX8">
+                    <rect key="frame" x="184" y="62" width="72" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="CjZ-RK-c4p"/>
+                        <constraint firstAttribute="width" constant="72" id="cKp-EA-iYm"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="请选择"/>
+                    <connections>
+                        <action selector="areaBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="8vb-Ws-PNQ"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DrD-KX-yPF">
+                    <rect key="frame" x="20" y="97" width="346" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="TAZ-oK-fLO"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T3W-ct-LSV">
+                    <rect key="frame" x="5" y="20" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="46" id="Dkj-GT-enw"/>
+                        <constraint firstAttribute="height" constant="30" id="Uau-zB-xeP"/>
+                    </constraints>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="buttonClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="wIe-YP-18c"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="DrD-KX-yPF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="5ut-bY-8lc"/>
+                <constraint firstItem="Hq1-k9-tzg" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="9HM-sp-ZPa"/>
+                <constraint firstItem="Lfr-Mw-GJP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="J2F-hU-vYr"/>
+                <constraint firstItem="T3W-ct-LSV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="Mg5-cZ-SEb"/>
+                <constraint firstItem="DrD-KX-yPF" firstAttribute="top" secondItem="L3y-Yy-CWi" secondAttribute="bottom" constant="15" id="ScX-hw-dXa"/>
+                <constraint firstItem="dcX-vk-Gm6" firstAttribute="leading" secondItem="L3y-Yy-CWi" secondAttribute="trailing" constant="10" id="YGG-hQ-vco"/>
+                <constraint firstItem="T3W-ct-LSV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="cgg-9c-qsB"/>
+                <constraint firstItem="L3y-Yy-CWi" firstAttribute="top" secondItem="Lfr-Mw-GJP" secondAttribute="bottom" constant="30" id="e5c-vd-Rni"/>
+                <constraint firstAttribute="trailing" secondItem="DrD-KX-yPF" secondAttribute="trailing" id="fTH-sq-OFa"/>
+                <constraint firstItem="Lfr-Mw-GJP" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="gbT-Vc-RwE"/>
+                <constraint firstItem="Y2W-i4-LX8" firstAttribute="leading" secondItem="dcX-vk-Gm6" secondAttribute="trailing" constant="10" id="iyu-6i-IRB"/>
+                <constraint firstItem="dcX-vk-Gm6" firstAttribute="top" secondItem="L3y-Yy-CWi" secondAttribute="top" id="u4j-Ps-lpw"/>
+                <constraint firstItem="L3y-Yy-CWi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="uAR-IL-Xfa"/>
+                <constraint firstItem="Y2W-i4-LX8" firstAttribute="top" secondItem="L3y-Yy-CWi" secondAttribute="top" id="xq7-V6-JOn"/>
+                <constraint firstItem="Hq1-k9-tzg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="y8B-Je-1sn"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="areaBtn" destination="Y2W-i4-LX8" id="kZM-Fs-2oR"/>
+                <outlet property="cityBtn" destination="dcX-vk-Gm6" id="heC-3m-PyE"/>
+                <outlet property="m_backBtn" destination="Lfr-Mw-GJP" id="2Ef-Jp-WN7"/>
+                <outlet property="m_line" destination="DrD-KX-yPF" id="62z-0j-pdN"/>
+                <outlet property="provinceBtn" destination="L3y-Yy-CWi" id="SOw-X5-Dlb"/>
+            </connections>
+            <point key="canvasLocation" x="56" y="120.98950524737631"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="gray_left" width="12" height="12"/>
+    </resources>
+</document>

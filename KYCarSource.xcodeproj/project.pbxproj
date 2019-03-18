@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FFF8F3200E7BD0BC2FB7808 /* Pods_KYCarSource.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC909A16BFAA14613661C6E9 /* Pods_KYCarSource.framework */; };
+		A521FE0B2232388A00400DE3 /* KYCarTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A521FE0A2232388A00400DE3 /* KYCarTypeModel.swift */; };
+		A521FE1022323EAC00400DE3 /* TSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A521FE0D22323EAC00400DE3 /* TSColor.swift */; };
+		A521FE1122323EAC00400DE3 /* TSUserInterfacePrinciples.swift in Sources */ = {isa = PBXBuildFile; fileRef = A521FE0E22323EAC00400DE3 /* TSUserInterfacePrinciples.swift */; };
+		A521FE1222323EAC00400DE3 /* TSFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = A521FE0F22323EAC00400DE3 /* TSFont.swift */; };
+		A521FE152236388B00400DE3 /* TSIndicatorWindowTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = A521FE142236388B00400DE3 /* TSIndicatorWindowTop.swift */; };
+		A521FE2C223638DB00400DE3 /* TSLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A521FE21223638DB00400DE3 /* TSLabel.swift */; };
+		A521FE5E2236541400400DE3 /* KYEdgeInsetsLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A521FE582236541300400DE3 /* KYEdgeInsetsLabel.swift */; };
+		A521FE5F2236541400400DE3 /* KYBaseAlertSheetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A521FE592236541300400DE3 /* KYBaseAlertSheetVC.swift */; };
+		A521FE622236541400400DE3 /* KYBaseSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A521FE5C2236541300400DE3 /* KYBaseSheetView.swift */; };
+		A521FE672236543A00400DE3 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A521FE652236543A00400DE3 /* NibLoadable.swift */; };
+		A521FE682236543A00400DE3 /* NibOwnerLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A521FE662236543A00400DE3 /* NibOwnerLoadable.swift */; };
+		A521FE6A2237587D00400DE3 /* KYAddressSelectorBackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A521FE692237587D00400DE3 /* KYAddressSelectorBackView.swift */; };
+		A521FE6C2237589E00400DE3 /* KYAddressSelectorBackView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A521FE6B2237589E00400DE3 /* KYAddressSelectorBackView.xib */; };
+		A54D21ED222E4126002D0CB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D21EC222E4126002D0CB4 /* AppDelegate.swift */; };
+		A54D21EF222E4126002D0CB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D21EE222E4126002D0CB4 /* ViewController.swift */; };
+		A54D21F2222E4126002D0CB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54D21F0222E4126002D0CB4 /* Main.storyboard */; };
+		A54D21F4222E4128002D0CB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54D21F3222E4128002D0CB4 /* Assets.xcassets */; };
+		A54D21F7222E4128002D0CB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54D21F5222E4128002D0CB4 /* LaunchScreen.storyboard */; };
+		A54D2202222E4128002D0CB4 /* KYCarSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D2201222E4128002D0CB4 /* KYCarSourceTests.swift */; };
+		A54D220D222E4128002D0CB4 /* KYCarSourceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D220C222E4128002D0CB4 /* KYCarSourceUITests.swift */; };
+		A54D2240222E4189002D0CB4 /* UIAlertController+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D221A222E4189002D0CB4 /* UIAlertController+Category.swift */; };
+		A54D2241222E4189002D0CB4 /* KYCarSourceDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D221D222E4189002D0CB4 /* KYCarSourceDetailVC.swift */; };
+		A54D2242222E4189002D0CB4 /* KYCarSourceDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54D221E222E4189002D0CB4 /* KYCarSourceDetailVC.xib */; };
+		A54D2243222E4189002D0CB4 /* KYCarSourceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D221F222E4189002D0CB4 /* KYCarSourceList.swift */; };
+		A54D2244222E4189002D0CB4 /* KYCarSourceList.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54D2220222E4189002D0CB4 /* KYCarSourceList.xib */; };
+		A54D2248222E4189002D0CB4 /* KYCarSourcePrivateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D2225222E4189002D0CB4 /* KYCarSourcePrivateModel.swift */; };
+		A54D224A222E4189002D0CB4 /* KYCarSourceDetailFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54D2228222E4189002D0CB4 /* KYCarSourceDetailFooterView.xib */; };
+		A54D224B222E4189002D0CB4 /* KYCarSourceListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D2229222E4189002D0CB4 /* KYCarSourceListCell.swift */; };
+		A54D224C222E4189002D0CB4 /* KYCarSourceDetailFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D222A222E4189002D0CB4 /* KYCarSourceDetailFooterView.swift */; };
+		A54D224D222E4189002D0CB4 /* KYCarSourceDetailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54D222B222E4189002D0CB4 /* KYCarSourceDetailCell.xib */; };
+		A54D224F222E4189002D0CB4 /* KYCarSourceListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54D222D222E4189002D0CB4 /* KYCarSourceListCell.xib */; };
+		A54D2250222E4189002D0CB4 /* KYLabelTextFieldView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54D222E222E4189002D0CB4 /* KYLabelTextFieldView.xib */; };
+		A54D2251222E4189002D0CB4 /* KYCarSourceDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D222F222E4189002D0CB4 /* KYCarSourceDetailHeaderView.swift */; };
+		A54D2252222E4189002D0CB4 /* KYLabelTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D2230222E4189002D0CB4 /* KYLabelTextFieldView.swift */; };
+		A54D2253222E4189002D0CB4 /* KYBottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D2231222E4189002D0CB4 /* KYBottomBarView.swift */; };
+		A54D2254222E4189002D0CB4 /* KYCarSourceDetailHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54D2232222E4189002D0CB4 /* KYCarSourceDetailHeaderView.xib */; };
+		A54D2255222E4189002D0CB4 /* KYCarSourceDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D2233222E4189002D0CB4 /* KYCarSourceDetailCell.swift */; };
+		A54D2258222E4189002D0CB4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D2236222E4189002D0CB4 /* Extension.swift */; };
+		A54D2259222E4189002D0CB4 /* KYProviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D2238222E4189002D0CB4 /* KYProviceModel.swift */; };
+		A54D225A222E4189002D0CB4 /* KYAddressSelectorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54D2239222E4189002D0CB4 /* KYAddressSelectorView.xib */; };
+		A54D225B222E4189002D0CB4 /* KYAddressSelectorTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54D223A222E4189002D0CB4 /* KYAddressSelectorTableView.xib */; };
+		A54D225C222E4189002D0CB4 /* KYAddressSelectorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D223B222E4189002D0CB4 /* KYAddressSelectorTableViewCell.swift */; };
+		A54D225D222E4189002D0CB4 /* addressLocation.plist in Resources */ = {isa = PBXBuildFile; fileRef = A54D223C222E4189002D0CB4 /* addressLocation.plist */; };
+		A54D225E222E4189002D0CB4 /* KYAddressSelectorTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D223D222E4189002D0CB4 /* KYAddressSelectorTableView.swift */; };
+		A54D225F222E4189002D0CB4 /* KYAddressSelectorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54D223E222E4189002D0CB4 /* KYAddressSelectorTableViewCell.xib */; };
+		A54D2260222E4189002D0CB4 /* KYAddressSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D223F222E4189002D0CB4 /* KYAddressSelectorView.swift */; };
+		A54D2298222F6F1D002D0CB4 /* KYAddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D2297222F6F1C002D0CB4 /* KYAddressModel.swift */; };
+		A54D229D223104CE002D0CB4 /* KYCarTypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D229B223104CE002D0CB4 /* KYCarTypeVC.swift */; };
+		A54D229E223104CE002D0CB4 /* KYCarTypeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54D229C223104CE002D0CB4 /* KYCarTypeVC.xib */; };
+		A54D22A1223105A0002D0CB4 /* KYCarTypeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D22A0223105A0002D0CB4 /* KYCarTypeHeader.swift */; };
+		A54D22A5223105C4002D0CB4 /* KYCarTypeHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54D22A4223105C4002D0CB4 /* KYCarTypeHeader.xib */; };
+		A54D22A822310832002D0CB4 /* KYCarTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54D22A622310832002D0CB4 /* KYCarTypeCell.swift */; };
+		A54D22A922310832002D0CB4 /* KYCarTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A54D22A722310832002D0CB4 /* KYCarTypeCell.xib */; };
+		A5F4F36A223B9BB300C8EBF9 /* testModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F4F369223B9BB300C8EBF9 /* testModel.swift */; };
+		A5FC48CC2239005900787BBA /* OCController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FC48CB2239005900787BBA /* OCController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A54D21FE222E4128002D0CB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A54D21E1222E4126002D0CB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A54D21E8222E4126002D0CB4;
+			remoteInfo = KYCarSource;
+		};
+		A54D2209222E4128002D0CB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A54D21E1222E4126002D0CB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A54D21E8222E4126002D0CB4;
+			remoteInfo = KYCarSource;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5CD8D118017C8A4F43D54BF8 /* Pods-KYCarSource.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYCarSource.release.xcconfig"; path = "Pods/Target Support Files/Pods-KYCarSource/Pods-KYCarSource.release.xcconfig"; sourceTree = "<group>"; };
+		8F0C53A2185001B6A0C6D92C /* Pods-KYCarSource.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KYCarSource.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KYCarSource/Pods-KYCarSource.debug.xcconfig"; sourceTree = "<group>"; };
+		A521FE0A2232388A00400DE3 /* KYCarTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYCarTypeModel.swift; sourceTree = "<group>"; };
+		A521FE0D22323EAC00400DE3 /* TSColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSColor.swift; sourceTree = "<group>"; };
+		A521FE0E22323EAC00400DE3 /* TSUserInterfacePrinciples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSUserInterfacePrinciples.swift; sourceTree = "<group>"; };
+		A521FE0F22323EAC00400DE3 /* TSFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSFont.swift; sourceTree = "<group>"; };
+		A521FE142236388B00400DE3 /* TSIndicatorWindowTop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSIndicatorWindowTop.swift; sourceTree = "<group>"; };
+		A521FE21223638DB00400DE3 /* TSLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TSLabel.swift; sourceTree = "<group>"; };
+		A521FE582236541300400DE3 /* KYEdgeInsetsLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEdgeInsetsLabel.swift; sourceTree = "<group>"; };
+		A521FE592236541300400DE3 /* KYBaseAlertSheetVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYBaseAlertSheetVC.swift; sourceTree = "<group>"; };
+		A521FE5C2236541300400DE3 /* KYBaseSheetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYBaseSheetView.swift; sourceTree = "<group>"; };
+		A521FE652236543A00400DE3 /* NibLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibLoadable.swift; sourceTree = "<group>"; };
+		A521FE662236543A00400DE3 /* NibOwnerLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibOwnerLoadable.swift; sourceTree = "<group>"; };
+		A521FE692237587D00400DE3 /* KYAddressSelectorBackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYAddressSelectorBackView.swift; sourceTree = "<group>"; };
+		A521FE6B2237589E00400DE3 /* KYAddressSelectorBackView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KYAddressSelectorBackView.xib; sourceTree = "<group>"; };
+		A54D21E9222E4126002D0CB4 /* KYCarSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYCarSource.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54D21EC222E4126002D0CB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A54D21EE222E4126002D0CB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A54D21F1222E4126002D0CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A54D21F3222E4128002D0CB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A54D21F6222E4128002D0CB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A54D21F8222E4128002D0CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54D21FD222E4128002D0CB4 /* KYCarSourceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYCarSourceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54D2201222E4128002D0CB4 /* KYCarSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYCarSourceTests.swift; sourceTree = "<group>"; };
+		A54D2203222E4128002D0CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54D2208222E4128002D0CB4 /* KYCarSourceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYCarSourceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54D220C222E4128002D0CB4 /* KYCarSourceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYCarSourceUITests.swift; sourceTree = "<group>"; };
+		A54D220E222E4128002D0CB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54D221A222E4189002D0CB4 /* UIAlertController+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Category.swift"; sourceTree = "<group>"; };
+		A54D221D222E4189002D0CB4 /* KYCarSourceDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCarSourceDetailVC.swift; sourceTree = "<group>"; };
+		A54D221E222E4189002D0CB4 /* KYCarSourceDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYCarSourceDetailVC.xib; sourceTree = "<group>"; };
+		A54D221F222E4189002D0CB4 /* KYCarSourceList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCarSourceList.swift; sourceTree = "<group>"; };
+		A54D2220222E4189002D0CB4 /* KYCarSourceList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYCarSourceList.xib; sourceTree = "<group>"; };
+		A54D2225222E4189002D0CB4 /* KYCarSourcePrivateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCarSourcePrivateModel.swift; sourceTree = "<group>"; };
+		A54D2228222E4189002D0CB4 /* KYCarSourceDetailFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYCarSourceDetailFooterView.xib; sourceTree = "<group>"; };
+		A54D2229222E4189002D0CB4 /* KYCarSourceListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCarSourceListCell.swift; sourceTree = "<group>"; };
+		A54D222A222E4189002D0CB4 /* KYCarSourceDetailFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCarSourceDetailFooterView.swift; sourceTree = "<group>"; };
+		A54D222B222E4189002D0CB4 /* KYCarSourceDetailCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYCarSourceDetailCell.xib; sourceTree = "<group>"; };
+		A54D222D222E4189002D0CB4 /* KYCarSourceListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYCarSourceListCell.xib; sourceTree = "<group>"; };
+		A54D222E222E4189002D0CB4 /* KYLabelTextFieldView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYLabelTextFieldView.xib; sourceTree = "<group>"; };
+		A54D222F222E4189002D0CB4 /* KYCarSourceDetailHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCarSourceDetailHeaderView.swift; sourceTree = "<group>"; };
+		A54D2230222E4189002D0CB4 /* KYLabelTextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYLabelTextFieldView.swift; sourceTree = "<group>"; };
+		A54D2231222E4189002D0CB4 /* KYBottomBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYBottomBarView.swift; sourceTree = "<group>"; };
+		A54D2232222E4189002D0CB4 /* KYCarSourceDetailHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYCarSourceDetailHeaderView.xib; sourceTree = "<group>"; };
+		A54D2233222E4189002D0CB4 /* KYCarSourceDetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYCarSourceDetailCell.swift; sourceTree = "<group>"; };
+		A54D2236222E4189002D0CB4 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		A54D2238222E4189002D0CB4 /* KYProviceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYProviceModel.swift; sourceTree = "<group>"; };
+		A54D2239222E4189002D0CB4 /* KYAddressSelectorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYAddressSelectorView.xib; sourceTree = "<group>"; };
+		A54D223A222E4189002D0CB4 /* KYAddressSelectorTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYAddressSelectorTableView.xib; sourceTree = "<group>"; };
+		A54D223B222E4189002D0CB4 /* KYAddressSelectorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYAddressSelectorTableViewCell.swift; sourceTree = "<group>"; };
+		A54D223C222E4189002D0CB4 /* addressLocation.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = addressLocation.plist; sourceTree = "<group>"; };
+		A54D223D222E4189002D0CB4 /* KYAddressSelectorTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYAddressSelectorTableView.swift; sourceTree = "<group>"; };
+		A54D223E222E4189002D0CB4 /* KYAddressSelectorTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KYAddressSelectorTableViewCell.xib; sourceTree = "<group>"; };
+		A54D223F222E4189002D0CB4 /* KYAddressSelectorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYAddressSelectorView.swift; sourceTree = "<group>"; };
+		A54D2297222F6F1C002D0CB4 /* KYAddressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYAddressModel.swift; sourceTree = "<group>"; };
+		A54D229B223104CE002D0CB4 /* KYCarTypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYCarTypeVC.swift; sourceTree = "<group>"; };
+		A54D229C223104CE002D0CB4 /* KYCarTypeVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KYCarTypeVC.xib; sourceTree = "<group>"; };
+		A54D22A0223105A0002D0CB4 /* KYCarTypeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYCarTypeHeader.swift; sourceTree = "<group>"; };
+		A54D22A4223105C4002D0CB4 /* KYCarTypeHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KYCarTypeHeader.xib; sourceTree = "<group>"; };
+		A54D22A622310832002D0CB4 /* KYCarTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KYCarTypeCell.swift; sourceTree = "<group>"; };
+		A54D22A722310832002D0CB4 /* KYCarTypeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KYCarTypeCell.xib; sourceTree = "<group>"; };
+		A5F4F369223B9BB300C8EBF9 /* testModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testModel.swift; sourceTree = "<group>"; };
+		A5FC48C92239005900787BBA /* KYCarSource-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KYCarSource-Bridging-Header.h"; sourceTree = "<group>"; };
+		A5FC48CA2239005900787BBA /* OCController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCController.h; sourceTree = "<group>"; };
+		A5FC48CB2239005900787BBA /* OCController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCController.m; sourceTree = "<group>"; };
+		DC909A16BFAA14613661C6E9 /* Pods_KYCarSource.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KYCarSource.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A54D21E6222E4126002D0CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FFF8F3200E7BD0BC2FB7808 /* Pods_KYCarSource.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54D21FA222E4128002D0CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54D2205222E4128002D0CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A521FE0C22323EAC00400DE3 /* TSUserInterfacePrinciples */ = {
+			isa = PBXGroup;
+			children = (
+				A521FE0D22323EAC00400DE3 /* TSColor.swift */,
+				A521FE0E22323EAC00400DE3 /* TSUserInterfacePrinciples.swift */,
+				A521FE0F22323EAC00400DE3 /* TSFont.swift */,
+			);
+			path = TSUserInterfacePrinciples;
+			sourceTree = "<group>";
+		};
+		A521FE132236388B00400DE3 /* TSIndicatorWindowTop */ = {
+			isa = PBXGroup;
+			children = (
+				A521FE142236388B00400DE3 /* TSIndicatorWindowTop.swift */,
+			);
+			path = TSIndicatorWindowTop;
+			sourceTree = "<group>";
+		};
+		A521FE16223638DB00400DE3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A521FE21223638DB00400DE3 /* TSLabel.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		A521FE572236541300400DE3 /* baseClass */ = {
+			isa = PBXGroup;
+			children = (
+				A521FE582236541300400DE3 /* KYEdgeInsetsLabel.swift */,
+				A521FE592236541300400DE3 /* KYBaseAlertSheetVC.swift */,
+				A521FE5C2236541300400DE3 /* KYBaseSheetView.swift */,
+			);
+			path = baseClass;
+			sourceTree = "<group>";
+		};
+		A521FE642236543A00400DE3 /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				A521FE652236543A00400DE3 /* NibLoadable.swift */,
+				A521FE662236543A00400DE3 /* NibOwnerLoadable.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		A54D21E0222E4126002D0CB4 = {
+			isa = PBXGroup;
+			children = (
+				A54D21EB222E4126002D0CB4 /* KYCarSource */,
+				A54D2200222E4128002D0CB4 /* KYCarSourceTests */,
+				A54D220B222E4128002D0CB4 /* KYCarSourceUITests */,
+				A54D21EA222E4126002D0CB4 /* Products */,
+				C51710CBB3C555418CEE38F3 /* Pods */,
+				D9C440D5299CEF3A5ADE0FC3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A54D21EA222E4126002D0CB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A54D21E9222E4126002D0CB4 /* KYCarSource.app */,
+				A54D21FD222E4128002D0CB4 /* KYCarSourceTests.xctest */,
+				A54D2208222E4128002D0CB4 /* KYCarSourceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A54D21EB222E4126002D0CB4 /* KYCarSource */ = {
+			isa = PBXGroup;
+			children = (
+				A521FE642236543A00400DE3 /* protocol */,
+				A521FE572236541300400DE3 /* baseClass */,
+				A521FE132236388B00400DE3 /* TSIndicatorWindowTop */,
+				A521FE16223638DB00400DE3 /* Common */,
+				A521FE0C22323EAC00400DE3 /* TSUserInterfacePrinciples */,
+				A54D229F22310561002D0CB4 /* 车长车型 */,
+				A54D2237222E4189002D0CB4 /* 地址选择器 */,
+				A54D221B222E4189002D0CB4 /* CarSource */,
+				A5FC48C82239002200787BBA /* OCViewController */,
+				A54D2236222E4189002D0CB4 /* Extension.swift */,
+				A54D221A222E4189002D0CB4 /* UIAlertController+Category.swift */,
+				A54D21EC222E4126002D0CB4 /* AppDelegate.swift */,
+				A54D21EE222E4126002D0CB4 /* ViewController.swift */,
+				A5F4F369223B9BB300C8EBF9 /* testModel.swift */,
+				A54D21F0222E4126002D0CB4 /* Main.storyboard */,
+				A54D21F3222E4128002D0CB4 /* Assets.xcassets */,
+				A54D21F5222E4128002D0CB4 /* LaunchScreen.storyboard */,
+				A54D21F8222E4128002D0CB4 /* Info.plist */,
+			);
+			path = KYCarSource;
+			sourceTree = "<group>";
+		};
+		A54D2200222E4128002D0CB4 /* KYCarSourceTests */ = {
+			isa = PBXGroup;
+			children = (
+				A54D2201222E4128002D0CB4 /* KYCarSourceTests.swift */,
+				A54D2203222E4128002D0CB4 /* Info.plist */,
+			);
+			path = KYCarSourceTests;
+			sourceTree = "<group>";
+		};
+		A54D220B222E4128002D0CB4 /* KYCarSourceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A54D220C222E4128002D0CB4 /* KYCarSourceUITests.swift */,
+				A54D220E222E4128002D0CB4 /* Info.plist */,
+			);
+			path = KYCarSourceUITests;
+			sourceTree = "<group>";
+		};
+		A54D221B222E4189002D0CB4 /* CarSource */ = {
+			isa = PBXGroup;
+			children = (
+				A54D221C222E4189002D0CB4 /* Controller */,
+				A54D2221222E4189002D0CB4 /* Model */,
+				A54D2227222E4189002D0CB4 /* View */,
+			);
+			path = CarSource;
+			sourceTree = "<group>";
+		};
+		A54D221C222E4189002D0CB4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A54D221D222E4189002D0CB4 /* KYCarSourceDetailVC.swift */,
+				A54D221E222E4189002D0CB4 /* KYCarSourceDetailVC.xib */,
+				A54D221F222E4189002D0CB4 /* KYCarSourceList.swift */,
+				A54D2220222E4189002D0CB4 /* KYCarSourceList.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A54D2221222E4189002D0CB4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A54D2225222E4189002D0CB4 /* KYCarSourcePrivateModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A54D2227222E4189002D0CB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A54D2228222E4189002D0CB4 /* KYCarSourceDetailFooterView.xib */,
+				A54D2229222E4189002D0CB4 /* KYCarSourceListCell.swift */,
+				A54D222A222E4189002D0CB4 /* KYCarSourceDetailFooterView.swift */,
+				A54D222B222E4189002D0CB4 /* KYCarSourceDetailCell.xib */,
+				A54D222D222E4189002D0CB4 /* KYCarSourceListCell.xib */,
+				A54D222E222E4189002D0CB4 /* KYLabelTextFieldView.xib */,
+				A54D222F222E4189002D0CB4 /* KYCarSourceDetailHeaderView.swift */,
+				A54D2230222E4189002D0CB4 /* KYLabelTextFieldView.swift */,
+				A54D2231222E4189002D0CB4 /* KYBottomBarView.swift */,
+				A54D2232222E4189002D0CB4 /* KYCarSourceDetailHeaderView.xib */,
+				A54D2233222E4189002D0CB4 /* KYCarSourceDetailCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A54D2237222E4189002D0CB4 /* 地址选择器 */ = {
+			isa = PBXGroup;
+			children = (
+				A54D223C222E4189002D0CB4 /* addressLocation.plist */,
+				A54D223F222E4189002D0CB4 /* KYAddressSelectorView.swift */,
+				A521FE692237587D00400DE3 /* KYAddressSelectorBackView.swift */,
+				A54D223D222E4189002D0CB4 /* KYAddressSelectorTableView.swift */,
+				A54D223B222E4189002D0CB4 /* KYAddressSelectorTableViewCell.swift */,
+				A54D2297222F6F1C002D0CB4 /* KYAddressModel.swift */,
+				A54D2238222E4189002D0CB4 /* KYProviceModel.swift */,
+				A54D2239222E4189002D0CB4 /* KYAddressSelectorView.xib */,
+				A54D223A222E4189002D0CB4 /* KYAddressSelectorTableView.xib */,
+				A54D223E222E4189002D0CB4 /* KYAddressSelectorTableViewCell.xib */,
+				A521FE6B2237589E00400DE3 /* KYAddressSelectorBackView.xib */,
+			);
+			path = "地址选择器";
+			sourceTree = "<group>";
+		};
+		A54D229F22310561002D0CB4 /* 车长车型 */ = {
+			isa = PBXGroup;
+			children = (
+				A54D229B223104CE002D0CB4 /* KYCarTypeVC.swift */,
+				A54D22A0223105A0002D0CB4 /* KYCarTypeHeader.swift */,
+				A54D22A622310832002D0CB4 /* KYCarTypeCell.swift */,
+				A521FE0A2232388A00400DE3 /* KYCarTypeModel.swift */,
+				A54D229C223104CE002D0CB4 /* KYCarTypeVC.xib */,
+				A54D22A4223105C4002D0CB4 /* KYCarTypeHeader.xib */,
+				A54D22A722310832002D0CB4 /* KYCarTypeCell.xib */,
+			);
+			path = "车长车型";
+			sourceTree = "<group>";
+		};
+		A5FC48C82239002200787BBA /* OCViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A5FC48CA2239005900787BBA /* OCController.h */,
+				A5FC48CB2239005900787BBA /* OCController.m */,
+				A5FC48C92239005900787BBA /* KYCarSource-Bridging-Header.h */,
+			);
+			path = OCViewController;
+			sourceTree = "<group>";
+		};
+		C51710CBB3C555418CEE38F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F0C53A2185001B6A0C6D92C /* Pods-KYCarSource.debug.xcconfig */,
+				5CD8D118017C8A4F43D54BF8 /* Pods-KYCarSource.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9C440D5299CEF3A5ADE0FC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC909A16BFAA14613661C6E9 /* Pods_KYCarSource.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A54D21E8222E4126002D0CB4 /* KYCarSource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54D2211222E4128002D0CB4 /* Build configuration list for PBXNativeTarget "KYCarSource" */;
+			buildPhases = (
+				EED9162F8B305D857DEBE08F /* [CP] Check Pods Manifest.lock */,
+				A54D21E5222E4126002D0CB4 /* Sources */,
+				A54D21E6222E4126002D0CB4 /* Frameworks */,
+				A54D21E7222E4126002D0CB4 /* Resources */,
+				5B3A9E9E0E7ABF8EB05E68D7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYCarSource;
+			productName = KYCarSource;
+			productReference = A54D21E9222E4126002D0CB4 /* KYCarSource.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A54D21FC222E4128002D0CB4 /* KYCarSourceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54D2214222E4128002D0CB4 /* Build configuration list for PBXNativeTarget "KYCarSourceTests" */;
+			buildPhases = (
+				A54D21F9222E4128002D0CB4 /* Sources */,
+				A54D21FA222E4128002D0CB4 /* Frameworks */,
+				A54D21FB222E4128002D0CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A54D21FF222E4128002D0CB4 /* PBXTargetDependency */,
+			);
+			name = KYCarSourceTests;
+			productName = KYCarSourceTests;
+			productReference = A54D21FD222E4128002D0CB4 /* KYCarSourceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A54D2207222E4128002D0CB4 /* KYCarSourceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54D2217222E4128002D0CB4 /* Build configuration list for PBXNativeTarget "KYCarSourceUITests" */;
+			buildPhases = (
+				A54D2204222E4128002D0CB4 /* Sources */,
+				A54D2205222E4128002D0CB4 /* Frameworks */,
+				A54D2206222E4128002D0CB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A54D220A222E4128002D0CB4 /* PBXTargetDependency */,
+			);
+			name = KYCarSourceUITests;
+			productName = KYCarSourceUITests;
+			productReference = A54D2208222E4128002D0CB4 /* KYCarSourceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A54D21E1222E4126002D0CB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = gongpengyang;
+				TargetAttributes = {
+					A54D21E8222E4126002D0CB4 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					A54D21FC222E4128002D0CB4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = A54D21E8222E4126002D0CB4;
+					};
+					A54D2207222E4128002D0CB4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = A54D21E8222E4126002D0CB4;
+					};
+				};
+			};
+			buildConfigurationList = A54D21E4222E4126002D0CB4 /* Build configuration list for PBXProject "KYCarSource" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A54D21E0222E4126002D0CB4;
+			productRefGroup = A54D21EA222E4126002D0CB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A54D21E8222E4126002D0CB4 /* KYCarSource */,
+				A54D21FC222E4128002D0CB4 /* KYCarSourceTests */,
+				A54D2207222E4128002D0CB4 /* KYCarSourceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A54D21E7222E4126002D0CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54D2254222E4189002D0CB4 /* KYCarSourceDetailHeaderView.xib in Resources */,
+				A54D225B222E4189002D0CB4 /* KYAddressSelectorTableView.xib in Resources */,
+				A54D21F7222E4128002D0CB4 /* LaunchScreen.storyboard in Resources */,
+				A54D22A5223105C4002D0CB4 /* KYCarTypeHeader.xib in Resources */,
+				A54D22A922310832002D0CB4 /* KYCarTypeCell.xib in Resources */,
+				A54D224F222E4189002D0CB4 /* KYCarSourceListCell.xib in Resources */,
+				A54D225F222E4189002D0CB4 /* KYAddressSelectorTableViewCell.xib in Resources */,
+				A54D229E223104CE002D0CB4 /* KYCarTypeVC.xib in Resources */,
+				A54D21F4222E4128002D0CB4 /* Assets.xcassets in Resources */,
+				A54D224A222E4189002D0CB4 /* KYCarSourceDetailFooterView.xib in Resources */,
+				A54D21F2222E4126002D0CB4 /* Main.storyboard in Resources */,
+				A521FE6C2237589E00400DE3 /* KYAddressSelectorBackView.xib in Resources */,
+				A54D225D222E4189002D0CB4 /* addressLocation.plist in Resources */,
+				A54D2244222E4189002D0CB4 /* KYCarSourceList.xib in Resources */,
+				A54D2250222E4189002D0CB4 /* KYLabelTextFieldView.xib in Resources */,
+				A54D2242222E4189002D0CB4 /* KYCarSourceDetailVC.xib in Resources */,
+				A54D224D222E4189002D0CB4 /* KYCarSourceDetailCell.xib in Resources */,
+				A54D225A222E4189002D0CB4 /* KYAddressSelectorView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54D21FB222E4128002D0CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54D2206222E4128002D0CB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B3A9E9E0E7ABF8EB05E68D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KYCarSource/Pods-KYCarSource-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/STRegex/Regex.framework",
+				"${BUILT_PRODUCTS_DIR}/testA/testA.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Regex.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/testA.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KYCarSource/Pods-KYCarSource-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EED9162F8B305D857DEBE08F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KYCarSource-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A54D21E5222E4126002D0CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A521FE152236388B00400DE3 /* TSIndicatorWindowTop.swift in Sources */,
+				A521FE682236543A00400DE3 /* NibOwnerLoadable.swift in Sources */,
+				A521FE5E2236541400400DE3 /* KYEdgeInsetsLabel.swift in Sources */,
+				A54D22A1223105A0002D0CB4 /* KYCarTypeHeader.swift in Sources */,
+				A54D2260222E4189002D0CB4 /* KYAddressSelectorView.swift in Sources */,
+				A54D229D223104CE002D0CB4 /* KYCarTypeVC.swift in Sources */,
+				A54D2240222E4189002D0CB4 /* UIAlertController+Category.swift in Sources */,
+				A5FC48CC2239005900787BBA /* OCController.m in Sources */,
+				A521FE0B2232388A00400DE3 /* KYCarTypeModel.swift in Sources */,
+				A54D224B222E4189002D0CB4 /* KYCarSourceListCell.swift in Sources */,
+				A521FE1122323EAC00400DE3 /* TSUserInterfacePrinciples.swift in Sources */,
+				A521FE1222323EAC00400DE3 /* TSFont.swift in Sources */,
+				A54D2251222E4189002D0CB4 /* KYCarSourceDetailHeaderView.swift in Sources */,
+				A54D22A822310832002D0CB4 /* KYCarTypeCell.swift in Sources */,
+				A54D2252222E4189002D0CB4 /* KYLabelTextFieldView.swift in Sources */,
+				A54D2259222E4189002D0CB4 /* KYProviceModel.swift in Sources */,
+				A54D2255222E4189002D0CB4 /* KYCarSourceDetailCell.swift in Sources */,
+				A54D225E222E4189002D0CB4 /* KYAddressSelectorTableView.swift in Sources */,
+				A54D2248222E4189002D0CB4 /* KYCarSourcePrivateModel.swift in Sources */,
+				A521FE1022323EAC00400DE3 /* TSColor.swift in Sources */,
+				A54D2253222E4189002D0CB4 /* KYBottomBarView.swift in Sources */,
+				A521FE2C223638DB00400DE3 /* TSLabel.swift in Sources */,
+				A521FE672236543A00400DE3 /* NibLoadable.swift in Sources */,
+				A521FE6A2237587D00400DE3 /* KYAddressSelectorBackView.swift in Sources */,
+				A54D2258222E4189002D0CB4 /* Extension.swift in Sources */,
+				A521FE5F2236541400400DE3 /* KYBaseAlertSheetVC.swift in Sources */,
+				A54D21EF222E4126002D0CB4 /* ViewController.swift in Sources */,
+				A54D2298222F6F1D002D0CB4 /* KYAddressModel.swift in Sources */,
+				A54D21ED222E4126002D0CB4 /* AppDelegate.swift in Sources */,
+				A521FE622236541400400DE3 /* KYBaseSheetView.swift in Sources */,
+				A5F4F36A223B9BB300C8EBF9 /* testModel.swift in Sources */,
+				A54D224C222E4189002D0CB4 /* KYCarSourceDetailFooterView.swift in Sources */,
+				A54D2241222E4189002D0CB4 /* KYCarSourceDetailVC.swift in Sources */,
+				A54D225C222E4189002D0CB4 /* KYAddressSelectorTableViewCell.swift in Sources */,
+				A54D2243222E4189002D0CB4 /* KYCarSourceList.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54D21F9222E4128002D0CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54D2202222E4128002D0CB4 /* KYCarSourceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54D2204222E4128002D0CB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54D220D222E4128002D0CB4 /* KYCarSourceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A54D21FF222E4128002D0CB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A54D21E8222E4126002D0CB4 /* KYCarSource */;
+			targetProxy = A54D21FE222E4128002D0CB4 /* PBXContainerItemProxy */;
+		};
+		A54D220A222E4128002D0CB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A54D21E8222E4126002D0CB4 /* KYCarSource */;
+			targetProxy = A54D2209222E4128002D0CB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A54D21F0222E4126002D0CB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54D21F1222E4126002D0CB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A54D21F5222E4128002D0CB4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A54D21F6222E4128002D0CB4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A54D220F222E4128002D0CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A54D2210222E4128002D0CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A54D2212222E4128002D0CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F0C53A2185001B6A0C6D92C /* Pods-KYCarSource.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 72PL8AR6TF;
+				INFOPLIST_FILE = KYCarSource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gongpengyang.KYCarSource;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KYCarSource/OCViewController/KYCarSource-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Debug;
+		};
+		A54D2213222E4128002D0CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD8D118017C8A4F43D54BF8 /* Pods-KYCarSource.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 72PL8AR6TF;
+				INFOPLIST_FILE = KYCarSource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gongpengyang.KYCarSource;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KYCarSource/OCViewController/KYCarSource-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
+			};
+			name = Release;
+		};
+		A54D2215222E4128002D0CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72PL8AR6TF;
+				INFOPLIST_FILE = KYCarSourceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gongpengyang.KYCarSourceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYCarSource.app/KYCarSource";
+			};
+			name = Debug;
+		};
+		A54D2216222E4128002D0CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72PL8AR6TF;
+				INFOPLIST_FILE = KYCarSourceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gongpengyang.KYCarSourceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYCarSource.app/KYCarSource";
+			};
+			name = Release;
+		};
+		A54D2218222E4128002D0CB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72PL8AR6TF;
+				INFOPLIST_FILE = KYCarSourceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gongpengyang.KYCarSourceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KYCarSource;
+			};
+			name = Debug;
+		};
+		A54D2219222E4128002D0CB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72PL8AR6TF;
+				INFOPLIST_FILE = KYCarSourceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gongpengyang.KYCarSourceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KYCarSource;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A54D21E4222E4126002D0CB4 /* Build configuration list for PBXProject "KYCarSource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54D220F222E4128002D0CB4 /* Debug */,
+				A54D2210222E4128002D0CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54D2211222E4128002D0CB4 /* Build configuration list for PBXNativeTarget "KYCarSource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54D2212222E4128002D0CB4 /* Debug */,
+				A54D2213222E4128002D0CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54D2214222E4128002D0CB4 /* Build configuration list for PBXNativeTarget "KYCarSourceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54D2215222E4128002D0CB4 /* Debug */,
+				A54D2216222E4128002D0CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54D2217222E4128002D0CB4 /* Build configuration list for PBXNativeTarget "KYCarSourceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54D2218222E4128002D0CB4 /* Debug */,
+				A54D2219222E4128002D0CB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A54D21E1222E4126002D0CB4 /* Project object */;
+}

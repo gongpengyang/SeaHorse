@@ -1,0 +1,25 @@
+PODS:
+  - ObjectMapper (3.4.2)
+  - STRegex (1.1.0)
+  - testA (0.1.0)
+
+DEPENDENCIES:
+  - ObjectMapper
+  - STRegex (= 1.1.0)
+  - testA
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ObjectMapper
+    - STRegex
+  https://github.com/gongpengyang/GPYComponent.git:
+    - testA
+
+SPEC CHECKSUMS:
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  STRegex: eb1f4c2fe9e2f0265b8df8634774cd8cd8914018
+  testA: e197480a812f659dbf9d5d1101fd552f6bf548e1
+
+PODFILE CHECKSUM: 2b848ce8633beaf8eca6315889647f3efd958326
+
+COCOAPODS: 1.5.3
